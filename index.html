@@ -27,6 +27,7 @@
           colors: {
             clifford: '#da373d',
             'primary-color': '#111111',
+            'secondary-color': '#179700',
           }
         }
       }
@@ -36,66 +37,82 @@
 
 <body class="w-11/12 mx-auto font-sora font-normal text-primary-color">
   <!-- Hero Area -->
-  <!-- Navbar starts here -->
-  <div class="navbar bg-base-100 h-24 my-auto">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-          <img src="assets/logo-small.png" alt="Small logo for small device">
-        </div>
-      </div>
-      <a class="hidden lg:block" href=""><img src="assets/logo-header.png" alt=""></a>
-    </div>
-    <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1  text-xl">
-        <li><a>Product</a></li>
-        <li><a>Services</a></li>
-        <li><a>Contact us</a></li>
-      </ul>
-    </div>
-    <div class="navbar-end">
-      <div class="hidden md:block">
-        <div class="flex items-center gap-3">
-          <div>
-            <button class="btn btn-ghost">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-            </button>
+  <div class="bg-gradient-to-b from-[#fff] to-[#EFEBE3]">
+    <!-- Navbar starts here -->
+    <div class="navbar h-24 my-auto">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <img src="assets/logo-small.png" alt="Small logo for small device">
           </div>
-          <div>
-            <button class="btn btn-ghost">
-              <div class="indicator">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                  stroke="currentColor" class="size-6">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+        </div>
+        <a class="hidden lg:block" href=""><img src="assets/logo-header.png" alt=""></a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1  text-xl">
+          <li><a>Product</a></li>
+          <li><a>Services</a></li>
+          <li><a>Contact us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="hidden md:block">
+          <div class="flex items-center gap-3">
+            <div>
+              <button class="btn btn-ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-              </div>
-            </button>
-          </div>
-          <div><a class="btn text-xl font-normal border-[#179700] bg-none">Login</a>
-          </div>
-          <div>
-            <a class="btn text-xl font-normal text-white bg-[#179700]">Register</a>
+              </button>
+            </div>
+            <div>
+              <button class="btn btn-ghost">
+                <div class="indicator">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div><a class="btn text-xl font-normal border-secondary-color bg-none">Login</a>
+            </div>
+            <div>
+              <a class="btn text-xl font-normal text-white bg-secondary-color">Register</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="block md:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-          class="size-6 text-[#179700]">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
+        <div class="block md:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6 text-[#179700]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </div>
       </div>
     </div>
+    <!-- Navbar ends here -->
+
+    <!-- Banner starts here -->
+    <div class="text-center mt-24">
+      <h2 class="text-3xl md:text-5xl lg:text-6xl font-semibold leading-normal mb-7">Freshness <span
+          class="text-secondary-color">You
+          Can <br>
+          Count</span>
+        On, Prices
+        You’ll Love!</h2>
+      <p class="text-sm md:text-xl leading-normal mb-7">Shop your daily essentials at unbeatable prices. From fresh
+        produce to
+        pantry
+        <br> staples, we’ve got you covered
+        every day!
+      </p>
+      <img class="mx-auto" src="assets/hero-vegetables.png" alt="Banner photo hero vegetables">
+    </div>
+    <!-- Banner ends here -->
   </div>
-  <!-- Navbar ends here -->
-
-  <!-- Banner starts here -->
-
-  <!-- Banner ends here -->
 
   <!-- Main Area -->
   <!-- Footer Area -->
