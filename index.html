@@ -41,7 +41,7 @@
   <!-- Hero Area -->
   <div class="bg-gradient-to-b from-[#fff] to-[#EFEBE3]">
     <!-- Navbar starts here -->
-    <div class="navbar h-24 my-auto">
+    <div class="navbar h-24 mb-5 border border-[#179800] md:border-none">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -97,15 +97,21 @@
     </div>
     <!-- Navbar ends here -->
 
+    <!-- Animation by Tailwind CSS starts here (extra section for challenge part)-->
+    <div
+      class="bg-gradient-to-b from-[#53DB3A] to-[#75b26a] text-white text-2xl md:text-3xl  font-bold py-5 my-3 rounded-lg text-center animate-bounce sticky top-0">
+      Freshness Delivered Daily!
+    </div>
+
+
+    <!-- Animation by Tailwind CSS ends here (extra section for challenge part)-->
+
     <!-- Banner starts here -->
     <div class="text-center mt-24">
       <h2 class="text-3xl md:text-5xl lg:text-6xl font-semibold leading-normal mb-7">Freshness <span
           class="text-secondary-color">You Can <br> Count</span> On, Prices You’ll Love!</h2>
       <p class="text-sm md:text-xl leading-normal mb-7">Shop your daily essentials at unbeatable prices. From fresh
-        produce to
-        pantry
-        <br> staples, we’ve got you covered
-        every day!
+        produce to pantry <br> staples, we’ve got you covered every day!
       </p>
       <img class="mx-auto" src="assets/hero-vegetables.png" alt="Banner photo hero vegetables">
     </div>
@@ -115,7 +121,7 @@
   <!-- Main Area -->
 
   <!-- Service area starts here -->
-  <div class="w-10/12 max-w-full mx-auto my-32">
+  <div class="w-10/12 max-w-full mx-auto my-20">
     <!-- Service title -->
     <div>
       <h2 class="text-secondary-color text-4xl font-semibold mb-12">Services</h2>
@@ -351,7 +357,7 @@
         </div>
         <!-- card 9 -->
         <div class="hidden md:block">
-          <div class="grid grid-cols-3 bg-white p-2 md:p-4 rounded-xl">
+          <div class="grid grid-cols-3 bg-white p-2  md:p-4 md:pb-9 rounded-xl">
             <!-- card image -->
             <div class="col-span-1 bg-[#EFEBE3] rounded-xl flex items-center justify-center">
               <img src="assets/onion.png" alt="potato">
@@ -378,7 +384,7 @@
   <!-- Products area ends here -->
 
   <!-- Offer area starts here -->
-  <div class="w-10/12 max-w-full mx-auto my-32">
+  <div class="w-10/12 max-w-full mx-auto my-20">
     <!-- Offer title -->
     <div>
       <h2 class="text-secondary-color text-4xl font-semibold mb-12">Arrival & Offers</h2>
@@ -386,28 +392,28 @@
     <!-- Offer card -->
     <div>
       <div class="grid grid-cols-1 md:grid-cols-7 gap-5 ">
-        <!-- Dawat card -->
-        <div
-          class="md:col-span-4 bg-[#115414] flex flex-col lg:flex-row justify-between items-center pt-10 pl-10 rounded-xl">
+        <!-- Daawat card -->
+        <div class="md:col-span-4 bg-[#115414] flex justify-between items-center pt-10 pl-5 rounded-xl">
           <div class=" text-white">
             <img src="assets/dawat-logo.png" alt="Dawat logo">
-            <a class="btn my-7 text-white bg-[#63B76D] border-none text-2xl font-light" href="">Cook Exotic Dishes</a>
-            <h2 class="text-4xl">UP to <span class="font-bold">20% OFF</span></h2>
+            <a class="btn my-7 text-white bg-[#63B76D] border-none text-xs lg:text-base font-light" href="">Cook Exotic
+              Dishes</a>
+            <h2 class="text-sm md:text-xl lg:text-2xl pb-4">UP to <span class="font-bold">20% OFF</span></h2>
           </div>
           <div>
             <img src="assets/dawat-mock-up.png" alt="Dawat packet">
           </div>
         </div>
         <!-- Gate card -->
-        <div class="md:col-span-3 bg-[#102861] flex justify-between pl-5 pt-5 pr-4 rounded-xl">
-          <div class=" text-white">
+        <div class="md:col-span-3 bg-[#102861] flex  justify-between  pl-5 pt-5 pr-4 rounded-xl">
+          <div class="text-white">
             <img src="assets/india-gate-logo.png" alt="India Gate logo">
-            <a class="btn my-7 text-white bg-[#2A4D97] border-none text-2xl font-light" href="">World’s No.1 Rice</a>
-            <h2 class="text-4xl">UP to <span class="font-bold">40% OFF</span></h2>
+            <a class="btn my-7 text-white bg-[#2A4D97] border-none text-xs lg:text-sm font-light" href="">World’s No.1
+              Rice</a>
+            <h2 class="text-sm lg:text-xl ">UP to <span class="font-bold">40% OFF</span></h2>
           </div>
-          <div>
+          <div class="flex justify-center">
             <img src="assets/india-gate-mock-up.png" alt="India gate packet">
-
           </div>
         </div>
       </div>
@@ -415,45 +421,93 @@
   </div>
   <!-- Offer area ends here -->
 
+  <!-- FAQ area starts here (extra section for challenge part) -->
+  <div class="mx-auto p-5 md:p-10 xl:p-14 2xl:p-32 bg-[#EFEBE3]">
+    <div>
+      <h2 class="text-secondary-color text-4xl font-semibold mb-8">Frequently Asked Question</h2>
+    </div>
+    <div class="collapse collapse-plus bg-gradient-to-br from-[#53DB3A] to-[#fff]  my-2">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title text-xl font-medium">What are your delivery hours?</div>
+      <div class="collapse-content">
+        <p>Our delivery hours are 24/7</p>
+      </div>
+    </div>
+    <div class="collapse collapse-plus bg-gradient-to-br from-[#53DB3A] to-[#fff] my-2">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title text-xl font-medium">Do you offer same-day delivery?</div>
+      <div class="collapse-content">
+        <p>Yes! We offer same-day delivery in select areas if your order is placed before 12 PM. Check our delivery page
+          for availability in your region.</p>
+      </div>
+    </div>
+    <div class="collapse collapse-plus bg-gradient-to-br from-[#53DB3A] to-[#fff] my-2">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title text-xl font-medium">What payment methods are you accepted?</div>
+      <div class="collapse-content">
+        <p>We accept all major credit and debit cards (Visa, MasterCard, American Express) as well as popular digital
+          wallets like Apple Pay and Google Pay. You can also choose cash on delivery where available.</p>
+      </div>
+    </div>
+    <div class="collapse collapse-plus bg-gradient-to-br from-[#53DB3A] to-[#fff] my-2">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title text-xl font-medium">How do I track my order?</div>
+      <div class="collapse-content">
+        <p>Once your order is dispatched, you will receive an email with a tracking number and a link to track your
+          package in real time.</p>
+      </div>
+    </div>
+    <div class="collapse collapse-plus bg-gradient-to-br from-[#53DB3A] to-[#fff] my-2">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title text-xl font-medium">What is your return policy?</div>
+      <div class="collapse-content">
+        <p>We offer a 30-day return policy on most products. If you’re not completely satisfied with your purchase,
+          please contact our support team to initiate a return. Some exclusions may apply.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ area ends here (extra section for challenge part) -->
+
   <!-- Footer Area -->
 
 
   <!-- Footer area starts here -->
-  <div class="relative mt-[300px]">
+  <div class="relative mt-[280px] md:mt-[380px] lg:mt-[300px]">
     <!-- Footer upper content -->
     <div class="">
       <div
-        class="absolute left-1/2 transform -translate-x-1/2 -top-[200px]  z-10 w-10/12 max-w-full mx-auto bg-[#EFEBE3] flex justify-between gap-8 flex-col lg:flex-row px-10 md:px-20 py-10 rounded-2xl items-center">
+        class="absolute left-1/2 transform -translate-x-1/2 -top-[240px] md:-top-[320px] lg:-top-[220px] z-10 w-10/12 max-w-full mx-auto bg-[#EFEBE3] flex justify-between gap-8 flex-col lg:flex-row px-10 md:px-20 py-10 rounded-2xl items-center">
         <!-- image -->
         <div>
           <img src="assets/vegetable-busket.png" alt="vegetable-busket">
         </div>
         <!-- content -->
-        <div class="flex flex-col gap-y-5">
-          <h2 class="text-2xl md:text-4xl font-semibold">Get Grocery News!</h2>
-          <p class="text-base md:text-xl font-normal">Exclusive training tips, ticks, product deals and more.</p>
+        <div class="flex flex-col items-center gap-y-2 lg:gap-y-5">
+          <h2 class="text-xl md:text-4xl font-bold text-[#179800]">Get Grocery News!</h2>
+          <p class="text-base md:text-xl font-normal text-center md:text-justify">Exclusive training tips, ticks,
+            product deals and
+            more.</p>
           <input type="email" placeholder="Enter email..." class="input input-bordered w-full max-w-md" />
-
-          <button class="px-5 py-3 text-white bg-secondary-color rounded-lg self-start" href=""><a href="">Success</a>
-            </>
-
+          <button class="px-5 py-3 text-white bg-secondary-color rounded-lg md:self-start" href="">
+            <a href="">Success</a></button>
         </div>
       </div>
       <!-- Footer Menu -->
-      <div class="bg-secondary-color pb-10 h-[500px] relative">
-        <div class="w-10/12 max-w-full mx-auto absolute bottom-0 left-0 right-0">
+      <div class="relative bg-secondary-color h-[650px] md:h-[500px] lg:h-[450px]">
+        <div class="w-10/12 max-w-full mx-auto absolute bottom-0 left-0 right-0 pb-10">
           <footer
-            class="footer flex justify-between flex-col md:flex-row gap-20 text-white text-base-content p-10 relative">
+            class="footer flex justify-between flex-col md:flex-row gap-7 lg:gap-20 text-white text-base-content lg:p-10 relative">
             <div class="flex-1">
               <img src="assets/logo-footer.png" alt="Footer logo">
               <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
             </div>
-            <div class="flex-1 flex flex-col gap-y-5 text-base ">
+            <div class="flex-1 flex flex-col gap-y-2 lg:gap-y-5 text-base ">
               <a class="link no-underline">Product</a>
               <a class="link no-underline">Services</a>
               <a class="link no-underline">Contact us</a>
             </div>
-            <div class="flex-1 md:absolute right-0 bottom-0 mb-10">
+            <div class="flex-1 md:absolute right-0 bottom-0">
               <h6 class="footer-title">Follow Us</h6>
               <div class="grid grid-flow-col gap-4">
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
